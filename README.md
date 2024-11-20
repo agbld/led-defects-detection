@@ -108,7 +108,7 @@ See inlined documentation in the scripts for more information.
 
 - [`ultralytics/generate_runs_report.py`](./ultralytics/generate_runs_report.py): Generate PDF reports of runs.
 - [`data/visualize_dataset.py`](./data/visualize_dataset.py): Render annotations on images and export to `data/vis_images/`.
-- [`data/preview_defects.py`](./data/preview_defects.py): Copy images with specific defects to `data/.tmp/`.
+- [`data/select_dataset.py`](./data/select_dataset.py): Copy images with specific defects to `data/.tmp/`.
 
 ## EfficientAD
 

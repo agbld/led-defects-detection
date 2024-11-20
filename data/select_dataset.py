@@ -2,8 +2,8 @@
 This script copies images and visualized images that contain specified classes to a temporary folder.
 
 Example usage:
-* `python preview_defects.py --included_classes tilt`
-* `python preview_defects.py --included_classes led particle flip Particle_Big marked`
+* `python select_dataset.py --included_classes tilt`
+* `python select_dataset.py --included_classes led particle flip Particle_Big marked`
 """
 
 import os
@@ -15,7 +15,7 @@ import argparse
 json_file = './original/annotations/instance.json'
 images_folder = './original/images'
 vis_images_folder = './visualized'
-tmp_folder = './preview'
+tmp_folder = './selected'
 tmp_images_folder = os.path.join(tmp_folder, 'original')
 tmp_vis_folder = os.path.join(tmp_folder, 'visualized')
 

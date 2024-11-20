@@ -11,7 +11,7 @@ efficientad/output
 # Datasets (sensitive data)
 data/original/
 data/visualized/
-data/preview/
+data/selected/
 
 # Misc.
 screenlog.0
